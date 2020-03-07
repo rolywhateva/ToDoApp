@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="77c3bc2e-1158-4cfe-820e-e7b777d01b99" ChangeDateTime="03/07/2020 08:51:51">
+    <Property Name="ElementName" Value="[dbo].[TodoListItem].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TodoListItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Title" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="114a7fbd-05a7-4a70-8346-fd26e61c1b66" ChangeDateTime="03/07/2020 09:45:53">
+    <Property Name="ElementName" Value="[dbo].[TodoListTags].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TodoListTags]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ListId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="54ea11fe-98e8-4b77-b367-8a18dc4048b6" ChangeDateTime="03/07/2020 09:46:48">
+    <Property Name="ElementName" Value="[dbo].[TodoListTags].[ItemId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TodoListTags]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TagId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6a16752a-aeb3-415a-bd8c-2d4ac3718ab6" ChangeDateTime="03/07/2020 09:47:31">
+    <Property Name="ElementName" Value="[dbo].[TodoListTags].[ListId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TodoListTags]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="abc2bcf8-82aa-4fb7-b634-22b547c0fc54" ChangeDateTime="03/07/2020 09:47:44">
+    <Property Name="ElementName" Value="[dbo].[TodoListTags].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TodoListTags]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ListId" />
+  </Operation>
+</Operations>
