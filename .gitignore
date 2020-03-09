@@ -7,7 +7,7 @@ nupkg/
 *.refactorlog
 # Visual Studio Code
 .vscode
-TodoApp/TestData/*
+TestData/*
 # Rider
 .idea
 *.dbmdl
@@ -16,7 +16,7 @@ TodoApp/TestData/*
 *.user
 *.userosscache
 *.sln.docstates
-*jfm
+*.jfm
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
