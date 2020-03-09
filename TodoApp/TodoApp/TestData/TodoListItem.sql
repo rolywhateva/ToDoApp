@@ -1,6 +1,0 @@
-﻿SET IDENTITY_INSERT [dbo].[TodoListItem] ON
-INSERT INTO [dbo].[TodoListItem] ([Id], [Title], [Description], [AddedAt], [LastModifiedAt], [DeadLine], [Priority], [Completed], [ListId]) VALUES (1, N'''Search for a partner''', N'''This project  is for two''', N'2020-03-07', N'2020-03-07', N'2020-12-03', 10, 0, 2)
-INSERT INTO [dbo].[TodoListItem] ([Id], [Title], [Description], [AddedAt], [LastModifiedAt], [DeadLine], [Priority], [Completed], [ListId]) VALUES (2, N'''Set up tasks''', N'''I am not going to do the work alone.Lol,Right?', N'2020-03-07', N'2020-03-07', N'2020-03-13', 9, 0, 2)
-INSERT INTO [dbo].[TodoListItem] ([Id], [Title], [Description], [AddedAt], [LastModifiedAt], [DeadLine], [Priority], [Completed], [ListId]) VALUES (3, N'''Choose the theme''', N'''I have several  topics I can choose from''', N'2020-03-07', N'2020-03-07', N'2020-03-14', 8, 0, 2)
-INSERT INTO [dbo].[TodoListItem] ([Id], [Title], [Description], [AddedAt], [LastModifiedAt], [DeadLine], [Priority], [Completed], [ListId]) VALUES (4, N'''Eath healthy''', N'''Pretty self-explanatory.No fast food!''', N'2020-03-07', N'2020-03-07', NULL, 10, 0, 3)
-SET IDENTITY_INSERT [dbo].[TodoListItem] OFF
