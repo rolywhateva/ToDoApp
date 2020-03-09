@@ -7,4 +7,5 @@ INSERT INTO [dbo].[TodoList] ([Id], [Title], [Description], [AddedAt], [LastModi
 INSERT INTO [dbo].[TodoList] ([Id], [Title], [Description], [AddedAt], [LastModifiedAt]) VALUES (7, N'''Dinner plan''', N'''You just don''t know what to cook, do  you?''', N'2020-03-07', N'2020-03-07')
 INSERT INTO [dbo].[TodoList] ([Id], [Title], [Description], [AddedAt], [LastModifiedAt]) VALUES (8, N'''Foosball master coach''', N'''This list will make you a literal God of foosball''', N'2020-03-07', N'2020-03-07')
 INSERT INTO [dbo].[TodoList] ([Id], [Title], [Description], [AddedAt], [LastModifiedAt]) VALUES (9, N'''Pizza ingridients''', N'''This will make your day''', N'2020-03-07', N'2020-03-07')
+INSERT INTO [dbo].[TodoList] ([Id], [Title], [Description], [AddedAt], [LastModifiedAt]) VALUES (10, N'''Pizza ingridients''', N'''This will make your day''', N'2020-03-07', N'2020-03-07')
 SET IDENTITY_INSERT [dbo].[TodoList] OFF
