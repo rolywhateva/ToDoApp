@@ -7,7 +7,7 @@ nupkg/
 *.refactorlog
 # Visual Studio Code
 .vscode
-TestData/*
+TodoApp/TestData/*
 # Rider
 .idea
 *.dbmdl
