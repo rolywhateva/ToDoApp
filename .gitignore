@@ -4,19 +4,19 @@ project.lock.json
 .DS_Store
 *.pyc
 nupkg/
-
+*.refactorlog
 # Visual Studio Code
 .vscode
-
+TestData/*
 # Rider
 .idea
-
+*.dbmdl
 # User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-
+*jfm
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

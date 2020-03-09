@@ -1,0 +1,6 @@
+﻿INSERT INTO [dbo].[TodoListTags] ([ListId], [TagId], [AddedAt]) VALUES (2, 3, N'2020-03-08')
+INSERT INTO [dbo].[TodoListTags] ([ListId], [TagId], [AddedAt]) VALUES (3, 4, N'2020-03-08')
+INSERT INTO [dbo].[TodoListTags] ([ListId], [TagId], [AddedAt]) VALUES (3, 5, N'2020-03-08')
+INSERT INTO [dbo].[TodoListTags] ([ListId], [TagId], [AddedAt]) VALUES (4, 3, N'2020-03-08')
+INSERT INTO [dbo].[TodoListTags] ([ListId], [TagId], [AddedAt]) VALUES (4, 4, N'2020-03-08')
+INSERT INTO [dbo].[TodoListTags] ([ListId], [TagId], [AddedAt]) VALUES (9, 1, N'2020-03-08')

@@ -58,6 +58,8 @@
     <Folder Include="Properties" />
     <Folder Include="CustomTypes" />
     <Folder Include="Tables" />
+    <Folder Include="TestData" />
+    <Folder Include="Triggers" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="CustomTypes\EntityName.sql" />
@@ -66,8 +68,17 @@
     <Build Include="Tables\TodoListItem.sql" />
     <Build Include="Tables\Tag.sql" />
     <Build Include="Tables\TodoListTags.sql" />
+    <Build Include="Triggers\DeleteItemsOnListDelete.sql" />
+    <Build Include="Triggers\DeleteListTagsOnTagDelete.sql" />
+    <Build Include="Triggers\DeleteListTagsOnListDelete.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TodoApp.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestData\Tag.sql" />
+    <None Include="TestData\Lists.sql" />
+    <None Include="TestData\TodoListItem.sql" />
+    <None Include="TestData\TodoListTags.sql" />
   </ItemGroup>
 </Project>
